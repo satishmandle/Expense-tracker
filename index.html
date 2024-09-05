@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvwSo_IDWBaLemSkxPL7o142JAUYhO0guthg&s">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <marquee scrollamount="9";scrolldelay="0s"> Expense Tracker         </marquee>
+        <div class="expense-form">
+            <input type="text" id="expense-name" placeholder="Expense Name" required>
+            <input type="number" id="expense-amount" placeholder="Amount" required>
+            <select id="expense-category">
+                <option value="" disabled selected>Select...</option>
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Other">Other</option>
+            </select>
+            <button id="add-expense">Add Expense</button>
+        </div>
+        <div class="expense-list">
+            <h2 id="Expense-display">Expenses</h2>
+            <ul id="expenses"></ul>
+        </div>
+        <div class="summary">
+            <h2 id="Expense-display">Summary</h2>
+            <p>Total: <span id="total-amount">&#8377;
+                0.00</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

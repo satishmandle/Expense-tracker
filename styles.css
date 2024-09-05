@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e6dada7c;
+    background-size: cover;
+    background-image: url('https://media.istockphoto.com/id/1209189012/photo/abstract-technology-hexagons-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=u3_syyLVY84lvN3Zm5n3SL60RClYEGgTWevbNDLvHgo=');
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(241, 227, 227, 0.5); /* 50% transparent background */
+}
+marquee{
+    margin-bottom: 20px;
+    color: black;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.expense-form input, .expense-form select, .expense-form button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.expense-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-list li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary {
+    margin-top: 20px;
+}
+
+#total-amount {
+    font-weight: bold;
+}
+#add-expense{
+    font-size: 18px;
+    background-color: rgb(123, 170, 123);
+}
+#add-expense:hover{
+    background-color: rgb(89, 143, 89);
+    font-size: 17.5px;
+    border-color: rgb(64, 136, 64); 
+    
+}
+#Expense-display{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-color: grey;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#expense-name{
+    background-color: rgba(255, 255, 255, 0.2); /* 50% transparent background */
+}
+#expense-amount{
+    background-color: rgba(255, 255, 255, 0.2); /* 50% transparent background */
+}
+#expense-category{
+    background-color: rgba(255, 255, 255, 0.2); /* 50% transparent background */
+}
